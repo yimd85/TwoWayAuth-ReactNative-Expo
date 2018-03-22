@@ -7,12 +7,12 @@ import SignInForm from './components/SignInForm';
 export default class App extends React.Component {
   componentsDidMount() {
     const config = {
-      apiKey: 'AIzaSyD3szkCnAjfxq6SMjWPculMzDAEcgvGk9o',
-      authDomain: 'expo-authentication.firebaseapp.com',
-      databaseURL: 'https://expo-authentication.firebaseio.com',
-      projectId: 'expo-authentication',
-      storageBucket: 'expo-authentication.appspot.com',
-      messagingSenderId: '714749435563'
+      apiKey: ,
+      authDomain: ,
+      databaseURL: ,
+      projectId: ,
+      storageBucket: ,
+      messagingSenderId: 
     };
     firebase.initializeApp(config);
   }
